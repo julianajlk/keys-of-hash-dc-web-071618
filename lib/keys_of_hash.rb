@@ -8,6 +8,5 @@ class Hash
         keys<<key
       end
     end
-  end
   keys
 end
