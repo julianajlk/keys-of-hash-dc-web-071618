@@ -4,11 +4,11 @@ class Hash
     keys = []
     arguments.each do |argument|
       map do |key, value|
-      if argument == value
+      if value == argument
         keys<<key
       end
     end
   end
-  keys
-end
+    keys
+  end
 end
