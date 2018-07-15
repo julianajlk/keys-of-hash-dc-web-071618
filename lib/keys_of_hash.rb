@@ -9,6 +9,6 @@ class Hash
       end
     end
   end
-end
   keys
+end
 end
