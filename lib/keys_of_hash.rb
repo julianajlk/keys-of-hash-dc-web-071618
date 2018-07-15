@@ -7,7 +7,7 @@ class Hash
     arguments.each do |argument|
       map do |key, value|
       if argument == value
-        keys<<keys
+        keys<<key
       end
     end
   end
